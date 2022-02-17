@@ -1,6 +1,7 @@
 const http = require("http");
 const express = require( "express");
 const WebSocket = require( "ws");
+const dba = require('./db_adapter.js');
 
 const app = express();
 const server = http.createServer(app);
